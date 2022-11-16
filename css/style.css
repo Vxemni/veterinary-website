@@ -1,0 +1,417 @@
+@font-face {
+    font-family: 'Myriad Pro Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Myriad Pro Regular'), url('MYRIADPRO-REGULAR.woff') format('woff');
+    }
+
+body {
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: 'Myriad Pro Regular';
+}
+
+.square {
+    background-color: #fcc302;
+    width: 256px;
+    height: 207px;
+}
+
+#container {
+    width: 1440px;
+    margin: auto;
+}
+
+.navi {
+    height: 120px;
+    padding: 0 140px 0 140px;
+    background-color: #EBB200;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-search {
+    height: 51px;
+    width: 280px;
+}
+
+.menu-search img, .footer-mail img {
+    cursor: pointer;
+}
+
+#search {
+    height: 51px;
+    width: 206px;
+    float: left;
+    background-color: #fcc302;
+    color: white;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    font-size: 17px;
+}
+
+::-webkit-input-placeholder { /* Edge */
+    color: white;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+}
+
+::placeholder {
+    color: white;
+}
+
+.logo {
+    height: 60px;
+    width: 220px;
+}
+
+.logo img {
+    float: left;
+    padding-right: 8px;
+}
+
+.logo h1 {
+    float: left;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    letter-spacing: 1.5px;
+}
+
+.logo p {
+    font-size: 15px;
+}
+
+.menu {
+    height: 30px;
+    font-size: 28px;
+}
+
+.menu li {
+    display: inline-block;
+    width: 110px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.white {
+    padding: 140px;
+    color: #313243;
+}
+
+.service, .services {
+    padding-top: 140px;
+    padding-bottom: 220px;
+    position: relative;
+}
+
+.orange {
+    background-color: #FFC300;
+    padding: 100px 140px 100px 140px;
+}
+
+.content {
+    padding: 100px 140px 200px 140px;
+}
+
+.content-title {
+    font-size: 70px;
+    letter-spacing: 3px;
+    margin-bottom: 50px;
+}
+
+.text {
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    margin-bottom: 50px;
+}
+
+.content img {
+    float: right;
+    padding-left: 100px;
+}
+
+.btn-orange {
+    width: 180px;
+    height: 70px;
+    margin-right: 40px;
+    background-color: #FFC300;
+    color: white;
+    font-size: 20px;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+.btn-orange:hover {
+    background-color: #00bec9;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.service img {
+    float: right;
+    margin-left: 78px;
+    z-index: 2;
+    position: relative;
+}
+
+.service .text {
+    width: 450px;
+}
+
+
+.service .square {
+  position: absolute;
+  bottom: 145px;
+  right: 435px;
+  z-index: 1;
+}
+
+.service-title {
+    margin-top: 75px;
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+
+.care {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.care-title {
+    font-size: 75px;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+    margin-top: 0px;
+}
+
+.care-text {
+    font-size: 28px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    width: 630px;
+    margin: 0;
+}
+
+.offer {
+    width: 1160px;
+    display: flex;
+    margin-top: 110px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.care-offer {
+    width: 342px;
+    text-align: center;
+}
+
+.offer-title {
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.offer-text {
+    letter-spacing: 1.2px;
+    font-size: 24px;   
+}
+
+.price-title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+  
+.btn-price {
+    width: 180px;
+    height: 50px;
+    background-color: #00bec9;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.services {
+    display: flex;
+    justify-content: space-between;
+}
+
+.services-right {
+    text-align: end; 
+}
+
+.services img {
+    float: left;
+    margin-right: 100px;
+    z-index: 2;
+    position: relative;
+}
+    
+.services .square {
+    position: absolute;
+    z-index: 1;
+    left: 435px;
+    bottom: 175px;
+}
+
+.services .btn-orange {
+    margin-right: 0;
+}
+
+.services .text {
+    padding-left: 78px;
+}
+
+.vet-title {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.vet-text {
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.bg-img {
+    background-image: url("../images/test.jpg");
+    background-size: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 135px;
+    padding-bottom: 135px;
+}
+
+.numbers {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.benefits {
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.post {
+    width: 361px;
+}
+
+.post-text {
+    padding: 30px;
+    border: 2px solid #d6d6d6;
+    border-top: none;
+    font-size: 17px;
+}
+
+.post-title {
+    letter-spacing: 1px;
+    font-size: 25px;
+    margin-top: 0;
+}
+
+.post-date, .post-more {
+    color: #00bec9;
+}
+   
+.post-more {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.footer-all {
+    background-color: #343434;
+    padding: 160px 140px 180px 140px;
+}
+
+.footer-link {
+    display: flex;
+    justify-content: space-between;
+    letter-spacing: 0.3px;
+}
+
+.links {
+    padding-left: 0;
+    margin-top: 40px;
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+}
+
+.links li {
+    list-style-type: none;
+    font-size: 25px;
+    line-height: 150%;
+}
+
+.mail-text {
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+   
+.footer-mail {
+    text-align: end;
+}
+
+.email-title {
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+
+#email {
+    width: 340px;
+    height: 86px;
+    float: left;
+    background-color: #fcc302;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    font-size: 25px;
+    color: white;
+}
+
+.socialmedia {
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+    border-radius: 100%;
+    padding-right: 5px;
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+.socialmedia a {
+    color: #343434;
+}
+
+#souruce {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#souruce a {
+    text-decoration: none;
+    color: #EBB200;
+}
+
+   
